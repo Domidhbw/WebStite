@@ -37,7 +37,7 @@
 }
  #Logo {
      grid-area: Logo;
-     background-image: url("Pictures/Logohell2.png");
+     background-image: url("../assets/images/Logohell2.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      background-color: transparent;
@@ -49,7 +49,7 @@
      border-color: #5893B8;
      border-bottom-style: solid;
      grid-area: Banner;
-     background-image: url("Pictures/HelloWorldHeader2.png");
+     background-image: url("../assets/images/HelloWorldHeader2.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      height: auto;
@@ -77,7 +77,7 @@
 }
  .Picture {
      grid-area: Picture;
-     background-image: url("Pictures/CheatEnginePic.png");
+     background-image: url("../assets/images/CheatEnginePic.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      width: 100%;
@@ -106,7 +106,7 @@
 }
  .Picture2 {
      grid-area: Picture2;
-     background-image: url("Pictures/OlydbgPic.png");
+     background-image: url("../assets/images/OlydbgPic.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
 }
@@ -290,7 +290,7 @@
          grid-template-areas: "Nav Nav Nav Nav Nav" "Banner Banner Banner Banner Banner" ". Content . Content2 ." 
     }
 }
- 1
+ 
 
 
 

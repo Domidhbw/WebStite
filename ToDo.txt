@@ -1,0 +1,35 @@
+- Dateipfade anpassen
+- Templates benutzen bei html
+
+header
+footer
+section
+aside
+h2 h3
+pre
+figure, figcaption
+br, hr
+ol
+dl dt dd
+em, strong
+span
+blockquote
+abbr
+table, thead, tbody, tfoot 
+tr, th, td 
+caption
+svg,iframe
+audio, video, source 
+form
+textarea
+select, option 
+details , summary
+PHP
+CSS
+pseudoelemente
+kombinator
+sticky
+schriftart local
+Favicon erstellen
+
+Tabellen

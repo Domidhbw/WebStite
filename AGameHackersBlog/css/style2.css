@@ -60,7 +60,7 @@
 }
  .Discord{
      grid-area: Discord;
-     background-image: url("Pictures/Discord.png");
+     background-image: url("../assets/images/Discord.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      height: 100px;
@@ -68,7 +68,7 @@
 }
  .GitHub{
      grid-area: GitHub;
-     background-image: url("Pictures/GitHub.png");
+     background-image: url("../assets/images/GitHub.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      height: 100px;
@@ -76,7 +76,7 @@
 }
  .Instagram{
      grid-area: Instagram;
-     background-image: url("Pictures/instagram.png");
+     background-image: url("../assets/images/instagram.png");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      height: 100px;
