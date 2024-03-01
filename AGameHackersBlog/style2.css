@@ -1,0 +1,203 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ main {
+     display: grid;
+     grid-template-columns: 0.5fr 1fr 0.25fr 1fr 1fr 1fr;
+     grid-template-rows: 175px 0.5fr 1fr;
+     gap: 0px 0px;
+     grid-auto-flow: row;
+     grid-template-areas: "Nav Nav Nav Nav Nav Nav" ". AboutMe . information information ." ". ContactMe . Form Form .";
+     font-family: jaf-bernina-sans, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+}
+ .InfoOne{
+     display:grid;
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 1fr 0.2fr 1fr;
+     gap:0px 0px;
+     grid-auto-flow: row;
+     grid-template-areas: "FormFirst . FormLast" "FormMail FormMail FormMail" 
+}
+ .FormFirst{
+     grid-area: FormFirst;
+}
+ .FormLast{
+     grid-area: FormLast;
+}
+ .FormMail{
+     grid-area: FormMail;
+}
+ .AboutMe {
+     margin-top: 50px;
+     grid-area: AboutMe;
+     font-weight: 700;
+     font-size: 25px;
+}
+ .information {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 0.5fr 0.1fr;
+     gap: 0px 0px;
+     grid-auto-flow: row;
+     grid-template-areas: "text text text" "SocialMedia SocialMedia SocialMedia";
+     grid-area: information;
+}
+ #text {
+     margin-top: 50px;
+     grid-area: text;
+}
+ .SocialMedia {
+     margin-top: 25px;
+     grid-area: SocialMedia;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr ;
+     grid-template-rows: 1fr;
+     grid-template-areas: "Discord GitHub Instagram ";
+}
+ .Discord{
+     grid-area: Discord;
+     background-image: url("Pictures/Discord.png");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     height: 100px;
+     width: 150px;
+}
+ .GitHub{
+     grid-area: GitHub;
+     background-image: url("Pictures/GitHub.png");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     height: 100px;
+     width: 150px;
+}
+ .Instagram{
+     grid-area: Instagram;
+     background-image: url("Pictures/instagram.png");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     height: 100px;
+     width: 150px;
+}
+ .ContactMe {
+     margin-top: 50px;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr;
+     gap: 0px 0px;
+     grid-auto-flow: row;
+     grid-template-areas: "HeaderAboutMe" "SubHeader";
+     grid-area: ContactMe;
+}
+ .HeaderAboutMe {
+     grid-area: HeaderAboutMe;
+     font-weight: 700;
+     font-size: 25px;
+}
+ .SubHeader {
+     grid-area: SubHeader;
+}
+ .Form {
+     margin-top: 50px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 0.5fr;
+     gap: 0px 0px;
+     grid-auto-flow: row;
+     grid-template-areas: "InfoOne InfoOne InfoTwo" "InfoOne InfoOne InfoTwo" "Submit Submit Submit";
+     grid-area: Form;
+}
+ .InfoOne {
+     grid-area: InfoOne;
+}
+ .InfoTwo {
+     grid-area: InfoTwo;
+     margin-left: 10px;
+}
+ .Submit {
+     grid-area: Submit;
+}
+ .myButton2 {
+     background-color:transparent;
+     display:inline-block;
+     cursor:pointer;
+     color:#fff;
+     grid-area: Headline;
+     font-family: jaf-bernina-sans, sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     font-size: 30px;
+     text-decoration: none;
+     border:2px solid #5893B8;
+     border-radius: 15px;
+     background-color:#5893B8;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+}
+ .myButton2:hover {
+     color: #232833;
+}
+ .Form input[type=text], select, textarea {
+     width: 100%;
+    /* Full width */
+     padding: 12px;
+    /* Some padding */
+     border: 2px solid #5893B8;
+    /* Gray border */
+     border-radius: 15px;
+    /* Rounded borders */
+     box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+     margin-top: 6px;
+    /* Add a top margin */
+     margin-bottom: 16px;
+    /* Bottom margin */
+     resize: vertical 
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+ .InfoTwo input[type=text], select, textarea{
+     height: 200px;
+}
+ @media screen and (max-width: 970px){
+     .Form {
+         margin-top: 50px;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 0.5fr;
+         gap: 0px 0px;
+         grid-auto-flow: row;
+         grid-template-areas: "InfoOne InfoOne InfoOne" "InfoOne InfoOne InfoOne" "InfoTwo InfoTwo InfoTwo" "Submit Submit Submit";
+         grid-area: Form;
+    }
+     .container3 {
+         display: grid;
+         grid-template-columns: 10px 1fr;
+         grid-template-rows: 175px 0.5fr 1fr;
+         gap: 0px 0px;
+         grid-auto-flow: row;
+         grid-template-areas: "Nav Nav " ". AboutMe" ". information" ". ContactMe" ". Form";
+    }
+     .text {
+         margin-top: 25px;
+    }
+     .FormMail{
+         margin-bottom: 100px;
+         margin-top: -50px;
+    }
+     .InfoTwo{
+         margin-top: -100px;
+    }
+     .SocialMedia {
+         margin-top: 25px;
+         grid-area: SocialMedia;
+         display: grid;
+         grid-template-columns: 1fr 1fr ;
+         grid-template-rows: 1fr 1fr;
+         grid-template-areas: "Discord GitHub" "Instagram . ";
+    }
+}

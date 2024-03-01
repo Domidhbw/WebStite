@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.ContainerContent {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 175px 0.5fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"Nav Nav Nav Nav Nav Nav"
+		". Article Article Article Article  ."
+	;
+}
+
+article {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	grid-area: Article;
+	border-style: solid;
+	border-color: #183B59;
+	display: grid;
+	min-width: 300px;
+	grid-template-columns: 0.2fr 1fr 0.2fr;
+	grid-template-rows: 50px 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"Date HeadlineArticle Close"
+		". ArticleText ."
+	;
+	font-family: jaf-bernina-sans, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+}
+
+.Close {
+	grid-area: Close;
+	margin-left: 10px;
+	font-size: 40px;
+
+}
+
+.Close a {
+	text-decoration: none;
+	color: black;
+}
+
+.Close a:hover {
+	color: #5893B8;
+}
+
+.HeadlineArticle {
+	margin-top: 3px;
+	margin-bottom: 20px;
+	grid-area: HeadlineArticle;
+}
+
+.Date {
+	grid-area: Date;
+	margin-left: 10px;
+}
+
+.ArticleText {
+	grid-area: ArticleText;
+}
+
+.ArticleText p {
+	font-weight: 400;
+	font-size: 15px;
+
+}
+
+.ArticleText h1 {
+	margin-top: 10px;
+	font-family: jaf-bernina-sans, sans-serif;
+	font-size: 20px;
+}
+
+.ArticleText img {
+	margin: 20px 20px 20px 0px;
+	width: 100%;
+	height: auto;
+}
+
+
+@media screen and (max-width: 970px) {
+
+	.Close {
+		margin-left: 0px;
+		font-size: 35px;
+	}
+
+	.HeadlineArticle {
+		font-size: 29px;
+
+	}
+
+	.ContainerContent {
+		display: grid;
+		grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 175px 0.5fr;
+		gap: 0px 0px;
+		grid-auto-flow: row;
+		grid-template-areas:
+			"Nav Nav Nav Nav Nav Nav"
+			". Article Article Article Article  Article"
+		;
+	}
+
+	article {
+		margin-right: 20px;
+	}
+
+}
+
+
+
+
