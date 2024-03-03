@@ -11,20 +11,9 @@
    </head>
    <body>
       <main class="ContainerContent">
-      <nav>
-            <a href="../index.php" id="Logo">
-         </a>
-            <div class="Menu">
-               <input type="checkbox" class="toggle-menu">
-               <div class="checkboxGrafik"></div>
-               <ul class="Hamburger">
-                  <li><a href="../index.php">Home</a></li>
-                  <li><a href="kontakt.php">WhoAmI</a></li>
-                  <li><a href="impressum.php">Imprint</a></li>
-                  <li> <input type="text" placeholder="Search.."></li>
-               </ul>
-            </div>
-         </nav>
+      <?php
+      include 'templates/headerPages.php';
+      ?>
          <article>
             <div class="HeadlineArticle">
                <h1>Cheat Engine Tutorial</h1>
