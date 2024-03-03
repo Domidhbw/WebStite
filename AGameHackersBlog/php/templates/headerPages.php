@@ -1,5 +1,5 @@
     <nav>
-        <a href="#index.php" id="Logo">
+        <a href="../index.php" id="Logo">
         </a>
         <div class="Menu">
             <input type="checkbox" class="toggle-menu">

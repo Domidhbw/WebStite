@@ -23,20 +23,20 @@
             </div>
             <div class="Close"><a href="../index.php">X</a></div>
             <div class="ArticleText">
-               <p>So let's go through the Cheat Engine Tutorial (x64). You can download Cheat Engine here (https://www.cheatengine.org/downloads..php). </p>
+               <p>So let's go through the Cheat Engine Tutorial (x64). You can <span style="font-weight:bold">download</span> Cheat Engine here (https://www.cheatengine.org/downloads..php). </p>
                <h2>Step 1: Introduction</h2>
                <p>Open Cheat Engine click on the icon in the Top left and select your game.</p>
                <img src="../assets/content/CheatEngineContent/0.jpg" alt="CheatEngine software with the atach icon highlighted" title="CheatEngine software with the atach icon highlighted">
-               <p>Now lets take a look at the main Window. You can search for Values on the right site. On the left site are going to be your results. And in the bottom you can add Values to play around with them.</p>
+               <p>Now lets take a look at the <span style="font-weight:bold">main Window.</span> You can search for Values on the right site. On the left site are going to be your results. And in the bottom you can add Values to play around with them.</p>
                <h2>Step 2: Exact Value scanning</h2>
                <p>So setup the memory scanner to find an integer and for exact value scan then set the value to the current value, most integers will be stored in a 4 byte variable, so let's start there.
                   Note: Integers can be stored in a 1 byte variable (byte), 2 byte variable (int16/short), 4 byte variable (int32/int), or 8 byte variable (int64/long).
-                  When ready click the first scan button.
+                  When ready click the first <span style="font-weight:bold">scan button.</span>
                </p>
                <img  src="../assets/content/CheatEngineContent/1.png" alt="CheatEngine software with the First Scan, value:, Scan Type and value Type fields highlighted" title="CheatEngine software with the First Scan, value:, Scan Type and value Type fields highlighted" >
                <p>You Should see a list of addresses, in the found address list, like this.</p>
                <img src="../assets/content/CheatEngineContent/2.png" alt="CheatEngine software with the adress field highlighted" title="CheatEngine software with the adress field highlighted">
-               <p>Now Click the hit me button, then reenter the current value and click the next scan button.
+               <p>Now Click the <span style="font-weight:bold">hit me button</span>, then reenter the current value and click the next scan button.
                   Note the red value in the list, this shows that the value has changed.
                </p>
                <img src="../assets/content/CheatEngineContent/3.png" alt="CheatEngine software with the Next Scan and value field highlighted as well as one memory adress" title="CheatEngine software with the Next Scan and value field highlighted as well as one memory adress">
