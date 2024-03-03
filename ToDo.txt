@@ -5,14 +5,12 @@ header
 footer
 section
 aside
-h2 h3
 pre
 figure, figcaption
 br, hr
 ol
 dl dt dd
 em, strong
-span
 blockquote
 abbr
 table, thead, tbody, tfoot 
