@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #5893b8;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 20px;
+  padding-top: 50px;
+  text-align: center;
+  background: black;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #1f2532;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #5893b8;
+  padding-left: 20px;
+}
+
+/* image */
+img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fakeimg {
+  background-color: #1f2532;
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+
+section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+video {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+.vid {
+  transform: scale(1); /* Adjust scale as needed */
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.bottomnav {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+ 
+/* Style the bottom links */
+.bottomnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+/* Change color on hover */
+.bottomnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
