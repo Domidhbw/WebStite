@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/templates.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <title>My Page Title</title>
 </head>
@@ -14,19 +15,20 @@
 <div class="row">
     <main class="leftcolumn">
       <section>
-        <h2>This Weeks Articles</h2>
+        <h1>This Weeks Articles</h1>
       <article class="card">
           <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
+          <h3><em>Title description,</em> Dec 7, 2017</h3>
           <img src="assets/images/CheatEnginePic.png" alt="Cheat Engine Tutorial Cover">
-          <p>Some text..</p>
+          <h3>Some text..</h3>
           <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       </article>
+      <hr>
       <article class="card">
           <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
+          <h3><em>Title description,</em> Dec 7, 2017</h3>
           <img src="assets/images/OlydbgPic.png" alt="Oly dbg Tutorial Cover">
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          <h3>Some text about me in culpa qui officia deserunt mollit anim..</h3>
           <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       </article>
       </section>

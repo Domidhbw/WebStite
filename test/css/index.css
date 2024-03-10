@@ -1,67 +1,13 @@
 * {
   box-sizing: border-box;
 }
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #5893b8;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 20px;
-  padding-top: 50px;
-  text-align: center;
-  background: black;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #1f2532;
-}
-
-/* Style the topnav links */
-.topnav a {
-  background-color: #1f2532;
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
   float: left;
   width: 65%;
 }
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: transparent;
-  font-size: 20px;
-}
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  border: 3px solid #73AD21;
-}
+
 /* Right column */
 .rightcolumn {
   float: left;
@@ -131,36 +77,6 @@ a {
   clear: both;
 }
 
-/* Footer */
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-.bottomnav {
-  overflow: hidden;
-  background-color: #333;
-  display: flex;
-  justify-content: center;
-}
- 
-/* Style the bottom links */
-.bottomnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  background-color: #333;
-}
- 
-/* Change color on hover */
-.bottomnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
   .leftcolumn, .rightcolumn {   
