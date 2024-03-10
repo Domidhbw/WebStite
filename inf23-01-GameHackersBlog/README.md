@@ -1,6 +1,6 @@
 ################################
 #                              #
-#         GameHackersBlog          #
+#         GameHackersBlog      #
 #                              #
 ################################
 
@@ -21,7 +21,5 @@ XAMPP-Version:
 * XAMPP for Windows 8.1.2
 
 Hinweise:
-* ..
-
-
-
+* - auf index.php merkt der online validator einige errors an, die allerdings vom iframe stammen, also der Einbettung des Tweets. Diese Errors     stammen also nicht von uns
+  - 
