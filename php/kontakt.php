@@ -10,11 +10,11 @@
 </head>
 <body>
 <?php include 'templates/header.php';  ?>
-<?php include 'templates/nav.php';  ?>
+<?php include 'templates/navPages.php';  ?>
 <main>
     <section class="card">
     <h3>Contact us directly here:</h3> 
-<form >      
+<form action="submit.php">      
   <input name="name" type="text" class="feedback-input" placeholder="Name*" />   
   <input name="email" type="text" class="feedback-input" placeholder="Email*" />
   <textarea name="text" class="feedback-input" placeholder="Comment*"></textarea>
@@ -23,7 +23,7 @@
 
     </section>
     <section class="card">
-<h3>Or Contact Us over our Socials:</h3>
+<h3>Or Contact Us via Socials:</h3>
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="136.6pt" height="76.8pt" viewBox="0 0 1366.000000 768.000000"
  preserveAspectRatio="xMidYMid meet">
