@@ -28,6 +28,7 @@ body {
 
 /* Style the topnav links */
 .topnav a {
+  background-color: #1f2532;
   float: left;
   display: block;
   color: #f2f2f2;
@@ -46,13 +47,25 @@ body {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 65%;
 }
-
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  font-size: 20px;
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #73AD21;
+}
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 35%;
   background-color: #5893b8;
   padding-left: 20px;
 }
@@ -83,6 +96,16 @@ video {
   height: auto;
   object-fit: cover;
   object-position: center;
+}
+
+a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: aliceblue;
 }
 
 .video-wrapper {
@@ -130,6 +153,7 @@ footer {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #333;
 }
  
 /* Change color on hover */
@@ -138,7 +162,7 @@ footer {
   color: black;
 }
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;

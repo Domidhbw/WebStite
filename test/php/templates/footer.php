@@ -1,7 +1,6 @@
 <footer>
   <nav class="bottomnav">
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
+    <a href="#">Datenschutz</a>
+    <a href="#">Impressum</a>
   </nav>
 </footer>

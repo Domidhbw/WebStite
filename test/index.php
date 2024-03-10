@@ -9,6 +9,8 @@
 </head>
 <body>
 <?php include 'php/templates/header.php';  ?>
+<?php include 'php/templates/nav.php';  ?>
+
 <div class="row">
     <main class="leftcolumn">
       <section>
@@ -46,6 +48,7 @@
             <a href="https://twitter.com/elonmusk/status/1516483038242385928?ref_src=twsrc%5Etfw">April 19, 2022</a>
           </blockquote>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+            /* This is causing the validator to throw errors */
         </script>
         <div class="video-wrapper">
           <iframe class="vid" src="https://www.youtube.com/embed/hXX4P1Up7KA"></iframe>
@@ -53,7 +56,7 @@
         </details>
       </div>
       <div class="card">
-        <label for="difficulty-select">How difficult was the hacking blog to understand?:</label>
+        <label for="difficulty-select">How difficult is the hacking blog to understand?:</label>
         <select name="difficulties" id="difficulty-select">
           <option value="">--Please choose an option--</option>
           <option value="easy peasy">Easy peasy</option>
@@ -66,7 +69,9 @@
     </aside>
   </div>
     <?php include 'php/templates/footer.php'; ?>
-
+    <div class="fixed">
+<a href="#">Get back up</a>
+</div>
 </body>
 </html>
 
