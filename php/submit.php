@@ -7,11 +7,12 @@
     <link rel="icon" type="image/x-icon" href="../favicon.ico">
     <link rel="stylesheet" href="../css/templates.css">
     <link rel="stylesheet" href="../css/kontakt.css">
-    <title>Contact</title>
+    <title>Submit</title>
 </head>
 
 <body>
     <h1>Thanks for the message!</h1>
+    <p>Information:</p>
     Name: <?= $_GET["name"] ?><br>
     Mail: <?= $_GET["email"] ?><br>
     Text: <?= $_GET["text"] ?>

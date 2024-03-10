@@ -1,86 +1,93 @@
 * {
-    box-sizing: border-box;
-  }
-  /* image */
-  img {
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
-  }
-
-span {
-    color: rgb(110, 5, 67);
+  box-sizing: border-box;
+}
+/* image */
+img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
 }
 
-  section {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: white;
-    text-align: left;
-  }
-  
-  /* Add a card effect for articles */
-  .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    color: red;
-  }
-  
-  table, th, td {
-    border: 1px solid rgb(247, 1, 1);
-  }
-  
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
+span {
+  color: rgb(110, 5, 67);
+}
 
-  audio{
-    max-width: fit-content;
-  }
+section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: white;
+  text-align: left;
+}
 
-  .leftcolumn {   
-    float: left;
-    width: 80%;
-  }
-  
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 20%;
-    background-color: #5893b8;
-    padding-left: 20px;
-  }
-  /* Clear floats after the columns */
+ul li:first-child {
+  font-weight: bold;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: red;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(247, 1, 1);
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+audio {
+  max-width: fit-content;
+}
+
+.leftcolumn {
+  float: left;
+  width: 80%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 20%;
+  background-color: #5893b8;
+  padding-left: 20px;
+}
+/* Clear floats after the columns */
 .row::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
   }
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 900px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
   }
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
-  
+}
