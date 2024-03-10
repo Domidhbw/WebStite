@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php include 'templates/header.php';  ?>
-<?php include 'templates/nav.php';  ?>
+<?php include 'templates/navPages.php';  ?>
 
 <div class="row">
     <main class="leftcolumn">
@@ -75,6 +75,6 @@
     </div>
 
 </div>
-<?php include 'templates/footer.php'; ?>
+<?php include 'templates/footerPages.php'; ?>
 </body>
 </html>

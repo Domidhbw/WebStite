@@ -3,7 +3,7 @@
 }
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 65%;
 }
@@ -14,6 +14,15 @@
   width: 35%;
   background-color: #5893b8;
   padding-left: 20px;
+}
+
+@font-face {
+  font-family: "Japan Rich";
+  src: url("../assets/fonts/JapanRich-Regular.woff2");
+}
+
+h1{
+  font-family: "Japan Rich";
 }
 
 /* image */
@@ -62,7 +71,6 @@ a {
   transform: scale(1); /* Adjust scale as needed */
 }
 
-
 /* Add a card effect for articles */
 .card {
   background-color: white;
@@ -79,7 +87,8 @@ a {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
