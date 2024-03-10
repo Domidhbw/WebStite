@@ -75,7 +75,7 @@
       </div>
     </aside>
   </div>
-  <?php include 'php/templates/footer.php'; ?>
+  <?php include 'php/templates/footerIndex.php'; ?>
   <div class="fixed">
     <a href="#">Get back up</a>
   </div>

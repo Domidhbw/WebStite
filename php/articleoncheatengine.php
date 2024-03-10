@@ -112,7 +112,7 @@
       </section>
     </main>
   </div>
-  <?php include 'templates/footer.php'; ?>
+  <?php include 'templates/footerPages.php'; ?>
   <div class="fixed">
     <button><a href="#">Get back up</a></button>
   </div>

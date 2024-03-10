@@ -91,6 +91,6 @@ m-1055 -295 c463 -64 834 -417 920 -876 22 -120 15 -355 -15 -464 -105 -385
     </section>
 </main>
 
-<?php include 'templates/footer.php'; ?>
+<?php include 'templates/footerPages.php'; ?>
 </body>
 </html>
