@@ -15,9 +15,9 @@
     <section class="card">
     <h3>Contact us directly here:</h3> 
 <form action="submit.php">      
-  <input name="name" type="text" class="feedback-input" placeholder="Name*" />   
-  <input name="email" type="text" class="feedback-input" placeholder="Email*" />
-  <textarea name="text" class="feedback-input" placeholder="Comment*"></textarea>
+  <input name="name" type="text" class="feedback-input" placeholder="Name*" required />   
+  <input name="email" type="email" class="feedback-input" placeholder="Email*" required/>
+  <textarea name="text" class="feedback-input" placeholder="Comment*" required></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
 
