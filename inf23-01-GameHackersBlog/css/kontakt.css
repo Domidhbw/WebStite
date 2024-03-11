@@ -1,21 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
 * {
     box-sizing: border-box;
   }
 form { max-width:420px; margin:50px auto; background-color: white; }
-.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  
 p::first-line {
   font-weight:bold ;
 }
-
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
 .feedback-input {
   color:black;
   font-family: Helvetica, Arial, sans-serif;
@@ -33,11 +27,6 @@ p::first-line {
   outline:0;
 }
 .feedback-input:focus { border:2px solid #1f2532; }
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
@@ -54,3 +43,4 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#5893b8; }
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);

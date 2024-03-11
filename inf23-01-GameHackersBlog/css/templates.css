@@ -7,7 +7,7 @@
     padding: 10px;
     background: #5893b8;
   }
-  /* Header/Blog Title */
+/* Header */
 .header {
     padding: 20px;
     padding-top: 50px;
@@ -18,14 +18,13 @@
   .header h1 {
     font-size: 50px;
   }
-  
-  /* Style the top navigation bar */
+  /*-----------------------*/
+  /*Top Nav*/
   .topnav {
     overflow: hidden;
     background-color: #1f2532;
   }
   
-  /* Style the topnav links */
   .topnav a {
     background-color: #1f2532;
     float: left;
@@ -35,12 +34,43 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  /* Change color on hover */
+
   .topnav a:hover {
     background-color: #5893b8;
     color: black;
   }
+  /*-----------------------*/
+  /* Footer */
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.bottomnav {
+  overflow: hidden;
+  background-color: #1f2532;
+  display: flex;
+  justify-content: center;
+}
+
+.bottomnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #1f2532;
+}
+ 
+.bottomnav a:hover {
+  background-color: #5893b8;
+  color: black;
+}
+
+/*-----------------------*/
+/* Class */
   .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -49,74 +79,47 @@
     font-size: 20px;
   }
 
-  #fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    color: white;
-  }
-
-  #fixed a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #1f2532;
-  }
-
-  #fixed a:hover{
-    background-color: #5893b8;
-    color: white;
-  }
-
-  #fixed button{
-    text-decoration: none;
-    border: none;
-    background: none;
-  }
-
-/* Footer */
-footer {
-    padding: 20px;
-    text-align: center;
-  }
-  .bottomnav {
-    overflow: hidden;
-    background-color: #1f2532;
-    display: flex;
-    justify-content: center;
-  }
-   
-  /* Style the bottom links */
-  .bottomnav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #1f2532;
-  }
-   
-  /* Change color on hover */
-  .bottomnav a:hover {
-    background-color: #5893b8;
-    color: black;
-  }
   .card {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
   }
-
+  /*-----------------------*/
+  /*Id */
 #logo {
   height: 40px;
   width: auto;
 }
+#fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: white;
+}
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+#fixed a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #1f2532;
+}
+
+#fixed a:hover{
+  background-color: #5893b8;
+  color: white;
+}
+
+#fixed button{
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+/*-----------------------*/
+  /*Responsive*/
 @media screen and (max-width: 900px) {
   .leftcolumn,
   .rightcolumn {
@@ -128,7 +131,6 @@ footer {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;

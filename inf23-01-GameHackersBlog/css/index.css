@@ -1,43 +1,16 @@
 * {
   box-sizing: border-box;
 }
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 65%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 35%;
-  background-color: #5893b8;
-  padding-left: 20px;
-}
-
-@font-face {
-  font-family: "Japan Rich";
-  src: url("../assets/fonts/JapanRich-Regular.woff2");
-}
 
 h1{
   font-family: "Japan Rich";
 }
 
-/* image */
 img {
   width: 50%;
   height: auto;
   object-fit: cover;
   object-position: center;
-}
-
-.fakeimg {
-  background-color: #1f2532;
-  color: white;
-  width: 100px;
-  height: 100px;
 }
 
 section {
@@ -68,28 +41,37 @@ a:hover{
   color: white;
 }
 
+.leftcolumn {
+  float: left;
+  width: 65%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 35%;
+  background-color: #5893b8;
+  padding-left: 20px;
+}
+
 .video-wrapper {
   overflow: hidden;
 }
 
 .vid {
-  transform: scale(1); /* Adjust scale as needed */
+  transform: scale(1); 
 }
 
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@font-face {
+  font-family: "Japan Rich";
+  src: url("../assets/fonts/JapanRich-Regular.woff2");
+}
+
 @media screen and (max-width: 900px) {
   .leftcolumn,
   .rightcolumn {
@@ -98,7 +80,6 @@ a:hover{
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
