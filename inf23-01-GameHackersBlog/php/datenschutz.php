@@ -12,6 +12,7 @@
 <body>
     <?php include 'templates/header.php';  ?>
     <?php include 'templates/navPages.php';  ?>
+    <main class="card">
     <h1>Datenschutzerklärung</h1>
     <p>Stand: 10. März 2024</p>
     <h2>Inhaltsübersicht</h2>
@@ -178,5 +179,6 @@
         <li><strong>YouTube-Videos: </strong>Videoinhalte; <strong>Dienstanbieter:</strong> Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland; <span class=""><strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO); </span><strong>Website:</strong> <a href="https://www.youtube.com" target="_blank">https://www.youtube.com</a>; <strong>Datenschutzerklärung:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>; <strong>Grundlage Drittlandtransfers:</strong> Data Privacy Framework (DPF). <strong>Widerspruchsmöglichkeit (Opt-Out):</strong> Opt-Out-Plugin: <a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank">https://tools.google.com/dlpage/gaoptout?hl=de</a>, Einstellungen für die Darstellung von Werbeeinblendungen: <a href="https://myadcenter.google.com/personalizationoff" target="_blank">https://myadcenter.google.com/personalizationoff</a>.</li>
     </ul>
     <p class="seal"><a href="https://datenschutz-generator.de/" title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken." target="_blank" rel="noopener noreferrer nofollow">Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke</a></p>
+        </main>
     <?php include 'templates/footerPages.php'; ?>
 </body>
