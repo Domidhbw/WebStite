@@ -62,15 +62,23 @@
         </details>
       </div>
       <div class="card">
-        <label for="difficulty-select">How difficult is the hacking blog to understand?:</label>
-        <select name="difficulties" id="difficulty-select">
-          <option value="">--Please choose an option--</option>
-          <option value="easy peasy">Easy peasy</option>
-          <option value="easy">Easy</option>
-          <option value="ok">Ok</option>
-          <option value="hard">Hard</option>
-          <option value="wtf">WTF</option>
-        </select>
+        <form action="php/feedback.php" method="post">
+          <label for="difficulty-select">How difficult is the hacking blog to understand?:</label>
+          <select name="difficulties" id="difficulty-select">
+            <option value="">--Please choose an option--</option>
+            <option value="easy peasy">Easy peasy</option>
+            <option value="easy">Easy</option>
+            <option value="ok">Ok</option>
+            <option value="hard">Hard</option>
+            <option value="wtf">WTF</option>
+          </select>
+          <br>
+          <label for="explanation">Explain your decision:</label><br>
+          <textarea id="explanation" name="explanation" rows="4" cols="50"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+
+
       </div>
     </aside>
   </div>
