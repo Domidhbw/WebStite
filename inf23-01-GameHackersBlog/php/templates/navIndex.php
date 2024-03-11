@@ -1,4 +1,5 @@
 <nav class="topnav sticky">
-    <a href="php/kontakt.php">Kontakt</a>
-    <a href="#" style="float:right"><img id="logo" src="assets/images/logo.png"></a>
-  </nav>
+  <a href="#"><img id="logo" src="assets/images/logo.png"></a>
+  <a href="php/kontakt.php" style="float:right">Kontakt</a>
+  <a href="#" style="float:right">About me</a>
+</nav>
