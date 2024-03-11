@@ -71,7 +71,6 @@
           <option value="hard">Hard</option>
           <option value="wtf">WTF</option>
         </select>
-        <pre>         ...Please be honest xD</pre>
       </div>
     </aside>
   </div>
