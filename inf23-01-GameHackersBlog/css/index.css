@@ -21,7 +21,7 @@
   src: url("../assets/fonts/JapanRich-Regular.woff2");
 }
 
-h1{
+h1 {
   font-family: "Japan Rich";
 }
 
@@ -56,11 +56,16 @@ video {
 a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: aliceblue;
+  background-color: #1f2532;
+}
+
+a:hover {
+  background-color: #5893b8;
+  color: white;
 }
 
 .video-wrapper {
