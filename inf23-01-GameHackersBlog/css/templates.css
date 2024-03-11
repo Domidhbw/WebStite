@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
   body {
     font-family: Arial;
@@ -126,7 +126,7 @@ footer {
     width: 100%;
     padding: 0;
   }
-  #title{
+  #title {
     font-size: 0.5em;
   }
 }
@@ -136,5 +136,4 @@ footer {
     float: none;
     width: 100%;
   }
-
 }

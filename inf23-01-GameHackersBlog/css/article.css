@@ -89,9 +89,10 @@ audio {
   clear: both;
 }
 
-.audio{
+.audio {
   position: relative;
-  top: 0px; left: 0px;
+  top: 0px;
+  left: 0px;
 }
 /*-----------------------*/
 

@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-h1{
+h1 {
   font-family: "Japan Rich";
 }
 
@@ -36,7 +36,7 @@ a {
   background-color: #1f2532;
 }
 
-a:hover{
+a:hover {
   background-color: #5893b8;
   color: white;
 }
