@@ -28,7 +28,6 @@ Hinweise:
 
 PHP ergebniss page stylen
 
-css position relative hinzufügen
 
 
 
