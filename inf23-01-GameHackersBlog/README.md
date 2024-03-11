@@ -22,7 +22,7 @@ XAMPP-Version:
 
 Hinweise:
 * - auf index.php merkt der online validator einige errors an, die allerdings vom iframe stammen, also der Einbettung des Tweets. Diese Errors     stammen also nicht von uns
-  - 
+  - Der audio Tag funktioniert nur in firefox
 
 Tabelle auf article stylen
 
