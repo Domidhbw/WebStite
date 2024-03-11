@@ -64,7 +64,7 @@
       <div class="card">
         <form action="php/feedback.php" method="post">
           <label for="difficulty-select">How difficult is the hacking blog to understand?:</label>
-          <select name="difficulties" id="difficulty-select">
+          <select required name="difficulties" id="difficulty-select">
             <option value="">--Please choose an option--</option>
             <option value="easy peasy">Easy peasy</option>
             <option value="easy">Easy</option>
