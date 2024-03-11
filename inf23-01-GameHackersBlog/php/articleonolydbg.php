@@ -63,7 +63,7 @@
     <aside class="rightcolumn">
         <div class="card">
             <h2> While You Read Some Music </h2>
-        <audio controls src="../assets/audio/elevatormusic.mp3"> Your browser does not support the audio tag.</audio> 
+        <audio controls src="../assets/audio/elevatormusic.mp3" class="audio"> Your browser does not support the audio tag.</audio> 
         </div>
     </aside>
 </div>
