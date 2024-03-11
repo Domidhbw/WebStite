@@ -22,18 +22,13 @@ XAMPP-Version:
 
 Hinweise:
 * - auf index.php merkt der online validator einige errors an, die allerdings vom iframe stammen, also der Einbettung des Tweets. Diese Errors     stammen also nicht von uns
-  - Der audio Tag funktioniert nur in firefox
+  - Der audio Tag funktioniert nur in Firefox
+  - Die einbettung des Tweets laedt auch ueberaschend lange
 
-
-Rechts sinnvoll auf der Main anpassen
-
-About Us page extra anlegen
 
 PHP ergebniss page stylen
 
-audio geht nur bei Firefox
-
-css position relative and absolute hinzufügen
+css position relative hinzufügen
 
 
 
