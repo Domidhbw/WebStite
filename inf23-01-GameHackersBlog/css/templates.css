@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+.difficulty{
+  color:rgb(89, 0, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.explanation{
+  color:darksalmon;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
   body {
     font-family: Arial;
     padding: 10px;
@@ -53,6 +63,8 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+
 
 .bottomnav a {
   float: left;
