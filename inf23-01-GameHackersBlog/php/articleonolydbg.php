@@ -69,11 +69,6 @@
         </audio> 
         </div>
     </aside>
-   
-    <div class="fixed">
-        <button><a href="#">Get back up</a></button>
-    </div>
-
 </div>
 <?php include 'templates/footerPages.php'; ?>
 </body>

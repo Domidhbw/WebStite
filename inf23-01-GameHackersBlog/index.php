@@ -57,7 +57,7 @@
             /* This is causing the validator to throw errors */
           </script>
           <div class="video-wrapper">
-            <iframe class="vid" src="https://www.youtube.com/embed/hXX4P1Up7KA"></iframe>
+            <iframe class="vid" src="https://www.youtube.com/embed/0_Eif2qGK7I?si=-q9od6zKtGQ9Cn1C"></iframe>
           </div>
         </details>
       </div>
@@ -75,9 +75,7 @@
     </aside>
   </div>
   <?php include 'php/templates/footerIndex.php'; ?>
-  <div class="fixed">
-    <a href="#">Get back up</a>
-  </div>
+
 </body>
 
 </html>

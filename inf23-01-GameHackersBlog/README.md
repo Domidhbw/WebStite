@@ -23,3 +23,37 @@ XAMPP-Version:
 Hinweise:
 * - auf index.php merkt der online validator einige errors an, die allerdings vom iframe stammen, also der Einbettung des Tweets. Diese Errors     stammen also nicht von uns
   - 
+
+Tabelle auf article stylen
+
+Get Back Up button stylen
+
+Rechts aus Link Logo machen
+
+Rechts sinnvoll auf der Main anpassen
+
+About Us page extra anlegen
+
+please be honest löschen
+
+Datenschutz und Impressum stylen
+
+PHP ergebniss page stylen
+
+audio geht nur bei Firefox
+
+Kommentar Feld bei artikel rechts
+
+Nav stylen
+
+css position relative and absolute hinzufügen
+
+id Selektor(Logo)
+
+Hover effekt ist nicht einheitlich
+
+Require bei input hinzufügen
+
+
+
+
