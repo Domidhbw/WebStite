@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+.difficulty{
+  color:rgb(89, 0, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.explanation{
+  color:darksalmon;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
   body {
     font-family: Arial;
     padding: 10px;
@@ -54,6 +64,8 @@ footer {
   justify-content: center;
 }
 
+
+
 .bottomnav a {
   float: left;
   display: block;
@@ -67,6 +79,14 @@ footer {
 .bottomnav a:hover {
   background-color: #5893b8;
   color: black;
+}
+
+.spaceholder-feedback{
+  height: 290px;
+}
+
+.spaceholder-submit{
+  height: 320px;
 }
 
 /*-----------------------*/
