@@ -11,11 +11,17 @@
 </head>
 
 <body>
-    <h1>Thanks for the message!</h1>
-    <p>Information:</p>
-    Name: <?= $_GET["name"] ?><br>
-    Mail: <?= $_GET["email"] ?><br>
-    Text: <?= $_GET["text"] ?>
+    <?php include 'templates/header.php';  ?>
+    <?php include 'templates/navPages.php';  ?>
+    <div style="background-color: white;">
+        <h1>Thanks for the message!</h1>
+        <p>Information:</p>
+        Name: <?= $_GET["name"] ?><br>
+        Mail: <?= $_GET["email"] ?><br>
+        Text: <?= $_GET["text"] ?>
+    </div>
+    <div class="spaceholder-submit"></div>
+    <?php include 'templates/footerPages.php'; ?>
 </body>
 
 </html>

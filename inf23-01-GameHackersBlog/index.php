@@ -48,7 +48,10 @@
       <div class="card">
         <details open>
           <summary>Populare Posts</summary>
-          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Book is out! Contains 400+ pages of game hacking content, covering topics from basic reversing to writing aimbots and wallhacks. Also includes 100+ pages of commented code for a variety of hacks. <a href="https://twitter.com/hashtag/Hacking?src=hash&amp;ref_src=twsrc%5Etfw">#Hacking</a> <a href="https://twitter.com/hashtag/book?src=hash&amp;ref_src=twsrc%5Etfw">#book</a> <a href="https://twitter.com/hashtag/tutorials?src=hash&amp;ref_src=twsrc%5Etfw">#tutorials</a> <br><br>Grab it for free at: <a href="https://t.co/pv0rqY8sqG">https://t.co/pv0rqY8sqG</a></p>&mdash; Game Hacking Academy (@GameHackingAcad) <a href="https://twitter.com/GameHackingAcad/status/1457714266287579139?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+          <blockquote class="twitter-tweet">
+            <p lang="en" dir="ltr">Book is out! Contains 400+ pages of game hacking content, covering topics from basic reversing to writing aimbots and wallhacks. Also includes 100+ pages of commented code for a variety of hacks. <a href="https://twitter.com/hashtag/Hacking?src=hash&amp;ref_src=twsrc%5Etfw">#Hacking</a> <a href="https://twitter.com/hashtag/book?src=hash&amp;ref_src=twsrc%5Etfw">#book</a> <a href="https://twitter.com/hashtag/tutorials?src=hash&amp;ref_src=twsrc%5Etfw">#tutorials</a> <br><br>Grab it for free at: <a href="https://t.co/pv0rqY8sqG">https://t.co/pv0rqY8sqG</a></p>&mdash; Game Hacking Academy (@GameHackingAcad) <a href="https://twitter.com/GameHackingAcad/status/1457714266287579139?ref_src=twsrc%5Etfw">November 8, 2021</a>
+          </blockquote>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <div class="video-wrapper">
             <iframe class="vid" src="https://www.youtube.com/embed/0_Eif2qGK7I?si=-q9od6zKtGQ9Cn1C"></iframe>
           </div>
