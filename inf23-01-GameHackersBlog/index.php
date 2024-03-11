@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/templates.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <title>My Page Title</title>
+  <title>A Game Hackers Blog</title>
 </head>
 
 <body>
@@ -39,23 +39,16 @@
     </main>
     <aside class="rightcolumn">
       <div class="card">
-        <h2>About Me</h2>
+        <h2>Crazyy Hacking !!!!</h2>
         <video controls>
           <source src="assets/video/rich.mp4">
           video not working
         </video>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       </div>
       <div class="card">
         <details open>
           <summary>Populare Posts</summary>
-          <blockquote class="twitter-tweet">
-            <p lang="en" dir="ltr"> A social media platform’s policies are good if the most extreme 10% on left and right are equally unhappy</p>&mdash; Elon Musk (@elonmusk)</p>
-            <a href="https://twitter.com/elonmusk/status/1516483038242385928?ref_src=twsrc%5Etfw">April 19, 2022</a>
-          </blockquote>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
-            /* This is causing the validator to throw errors */
-          </script>
+          <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Book is out! Contains 400+ pages of game hacking content, covering topics from basic reversing to writing aimbots and wallhacks. Also includes 100+ pages of commented code for a variety of hacks. <a href="https://twitter.com/hashtag/Hacking?src=hash&amp;ref_src=twsrc%5Etfw">#Hacking</a> <a href="https://twitter.com/hashtag/book?src=hash&amp;ref_src=twsrc%5Etfw">#book</a> <a href="https://twitter.com/hashtag/tutorials?src=hash&amp;ref_src=twsrc%5Etfw">#tutorials</a> <br><br>Grab it for free at: <a href="https://t.co/pv0rqY8sqG">https://t.co/pv0rqY8sqG</a></p>&mdash; Game Hacking Academy (@GameHackingAcad) <a href="https://twitter.com/GameHackingAcad/status/1457714266287579139?ref_src=twsrc%5Etfw">November 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
           <div class="video-wrapper">
             <iframe class="vid" src="https://www.youtube.com/embed/0_Eif2qGK7I?si=-q9od6zKtGQ9Cn1C"></iframe>
           </div>
