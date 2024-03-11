@@ -1,5 +1,5 @@
 <div id="fixed">
-  <button><a href="#">Get back up</a></button>
+  <a href="#" class="button-link">Get back up</a>
 </div>
 <footer>
   <nav class="bottomnav">
