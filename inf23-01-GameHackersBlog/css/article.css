@@ -33,13 +33,16 @@ ul li:first-child {
 table {
   width: 100%;
   border-collapse: collapse;
-  color: red;
+  border: 2px solid #ddd;
 }
 
-table,
-th,
-td {
-  border: 1px solid rgb(247, 1, 1);
+caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #816565;
+  border-bottom: 2px solid #ddd;
+  color: white; /* Weißer Text für Kontrast */
 }
 
 th,
@@ -50,6 +53,22 @@ td {
 
 th {
   background-color: #f2f2f2;
+  border-bottom: 2px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e6e6; /* Helleres Grau für gerade Zeilen */
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+tfoot {
+  font-style: italic;
+  background-color: #f2f2f2;
+  font-size: 0.9em;
+  border-top: 2px solid #ddd;
 }
 
 audio {
