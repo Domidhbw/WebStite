@@ -2,55 +2,66 @@
   box-sizing: border-box;
 }
 
-.difficulty{
-  color:rgb(89, 0, 255);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.difficulty {
+  color: rgb(89, 0, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.explanation{
-  color:darksalmon;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.explanation {
+  color: darksalmon;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-  body {
-    font-family: Arial;
-    padding: 10px;
-    background: #5893b8;
-  }
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #5893b8;
+}
 /* Header */
 .header {
-    padding: 20px;
-    padding-top: 50px;
-    text-align: center;
-    color: white;
-  }
-  
-  .header h1 {
-    font-size: 50px;
-  }
-  /*-----------------------*/
-  /*Top Nav*/
-  .topnav {
-    overflow: hidden;
-    background-color: #1f2532;
-  }
-  
-  .topnav a {
-    background-color: #1f2532;
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  padding: 20px;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
 
-  .topnav a:hover {
-    background-color: #5893b8;
-    color: black;
-  }
-  /*-----------------------*/
-  /* Footer */
+.header h1 {
+  font-size: 50px;
+}
+/*-----------------------*/
+/*Top Nav*/
+.topnav {
+  overflow: hidden;
+  background-color: #1f2532;
+}
+
+.topnav a {
+  background-color: #1f2532;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #5893b8;
+  color: black;
+}
+/*-----------------------*/
+/* Footer */
 
 footer {
   padding: 20px;
@@ -64,8 +75,6 @@ footer {
   justify-content: center;
 }
 
-
-
 .bottomnav a {
   float: left;
   display: block;
@@ -75,37 +84,37 @@ footer {
   text-decoration: none;
   background-color: #1f2532;
 }
- 
+
 .bottomnav a:hover {
   background-color: #5893b8;
   color: black;
 }
 
-.spaceholder-feedback{
+.spaceholder-feedback {
   height: 290px;
 }
 
-.spaceholder-submit{
+.spaceholder-submit {
   height: 320px;
 }
 
 /*-----------------------*/
 /* Class */
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: transparent;
-    font-size: 20px;
-  }
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  font-size: 20px;
+}
 
-  .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  /*-----------------------*/
-  /*Id */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/*-----------------------*/
+/*Id */
 #logo {
   height: 40px;
   width: auto;
@@ -127,19 +136,19 @@ footer {
   background-color: #1f2532;
 }
 
-#fixed a:hover{
+#fixed a:hover {
   background-color: #5893b8;
   color: white;
 }
 
-#fixed button{
+#fixed button {
   text-decoration: none;
   border: none;
   background: none;
 }
 
 /*-----------------------*/
-  /*Responsive*/
+/*Responsive*/
 @media screen and (max-width: 900px) {
   .leftcolumn,
   .rightcolumn {

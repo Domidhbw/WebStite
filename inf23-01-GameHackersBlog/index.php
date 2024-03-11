@@ -71,7 +71,7 @@
           <br>
           <label for="explanation">Explain your decision:</label><br>
           <textarea id="explanation" name="explanation" rows="4" cols="50"></textarea><br>
-          <input type="submit" value="Submit">
+          <button type="submit">Submit</button>
         </form>
 
 
